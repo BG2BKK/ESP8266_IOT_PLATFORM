@@ -91,7 +91,6 @@ LINKFLAGS_eagle.app.v6 = \
 	$(DEP_LIBS_eagle.app.v6)					\
 	-lcirom \
 	-lmirom \
-#	-Wl,--end-group
 
 DEPENDS_eagle.app.v6 = \
                 $(LD_FILE) \
